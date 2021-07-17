@@ -1,0 +1,35 @@
+#field {
+    width: 500px;
+    height: 500px;
+    border: 5px solid red;
+    /* padding: 5px; */
+    margin: 0 auto;
+    position: relative;
+    box-sizing: content-box;
+}
+
+.snakePart {
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border: 1px solid yellow;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+#point {
+    position: absolute;
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+li {
+    font-weight: 700;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+}
